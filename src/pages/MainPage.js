@@ -1,10 +1,11 @@
-import Button from '../components/common/Button';
+import Header from '../components/common/Header';
 
 const MainPage = () => {
     return (
-        <div>
-            <Button>실험 버튼!</Button>
-        </div>
+        <>
+            <Header />
+            <div>Hello, Hola mucho gusto!</div>
+        </>
     );
 };
 export default MainPage;
