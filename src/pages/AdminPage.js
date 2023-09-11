@@ -1,11 +1,11 @@
 import AuthForm from '../components/auth/AuthForm';
 import AuthTemplate from '../components/auth/AuthTemplate';
 
-const LoginPage = () => {
+const AdminPage = () => {
     return (
         <AuthTemplate>
-            <AuthForm /> LoginPage에서 내용 작성
+            <AuthForm /> admin으로 접속 시 보여질 화면
         </AuthTemplate>
     );
 };
-export default LoginPage;
+export default AdminPage;
