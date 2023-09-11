@@ -34,7 +34,7 @@ const StyledInput = styled.input`
 
 // 폼 하단에 로그인 혹은 회원가입 링크 삽입
 const Footer = styled.div`
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     text-align: right;
     a {
         color: ${palette.gray[6]};
