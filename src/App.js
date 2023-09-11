@@ -1,5 +1,6 @@
 import { Route, Routes } from '../node_modules/react-router-dom/dist/index';
 import AdminPage from './pages/AdminPage';
+import GuestPage from './pages/GuestPage';
 import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
 import RegisterPage from './pages/RegisterPage';
@@ -13,6 +14,7 @@ const App = () => {
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/write" element={<WritePage />} />
             <Route path="/admin" element={<AdminPage />} />
+            <Route path="/guest" element={<GuestPage />} />
         </Routes>
     );
 };

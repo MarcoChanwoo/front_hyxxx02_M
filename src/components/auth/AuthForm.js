@@ -45,15 +45,25 @@ const Footer = styled.div`
     }
 `;
 
-const AuthForm = ({ onClick }) => {
+const ButtonWithMarginTop = styled(Button)`
+    margin-top: 1rem;
+`;
+
+const textMap = {
+    login: '로그인',
+    register: '회원가입',
+};
+
+const AuthForm = ({ type }) => {
+    const text = textMap[type];
     return (
         <AuthFormBlock>
-            <h3>로그인</h3>
+            <h3>{text}</h3>
             <form>
                 <StyledInput
                     autoComplete="username"
                     name="username"
-                    placeholder="아이디"
+                    placeholder="닉네임"
                 />
                 <StyledInput
                     autoComplete="new-password"
@@ -61,20 +71,34 @@ const AuthForm = ({ onClick }) => {
                     placeholder="비밀번호"
                     type="password"
                 />
-                <Button
+                {type === 'register' && (
+                    <StyledInput
+                        autoComplete="new-password"
+                        name="passwordConfirm"
+                        placeholder="비밀번호 확인"
+                        type="password"
+                    />
+                )}
+                <ButtonWithMarginTop
                     cyan
                     fullWidth
                     style={{ marginTop: '1rem' }}
-                    onClick={() => {
-                        alert('관리자 화면으로 넘어갑니다.');
-                    }}
+                    // onClick={() => {
+                    //     alert('관리자 화면으로 넘어갑니다.');
+                    // }}
                 >
                     {/* 버튼 설정은 Button.js에서 */}
-                    로그인
-                </Button>
+                    {text}
+                </ButtonWithMarginTop>
             </form>
             <Footer>
-                <Link to="/register">회원가입</Link>
+                {type === 'login' ? (
+                    <Link to="/register">회원가입</Link>
+                ) : (
+                    <Link to="/login">XXX 로그인</Link>
+                )}
+                <br />
+                <Link to="/guest">등록없이 둘러보기</Link>
             </Footer>
         </AuthFormBlock>
     );
