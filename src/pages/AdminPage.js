@@ -1,11 +1,11 @@
-import AuthForm from '../components/auth/AuthForm';
-import AuthTemplate from '../components/auth/AuthTemplate';
+import Header from '../components/common/Header';
 
 const AdminPage = () => {
     return (
-        <AuthTemplate>
-            <AuthForm /> admin으로 접속 시 보여질 화면
-        </AuthTemplate>
+        <>
+            <Header />
+            <div>감독자 페이지</div>
+        </>
     );
 };
 export default AdminPage;

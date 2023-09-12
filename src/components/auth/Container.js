@@ -12,7 +12,7 @@ const ContainerBlock = styled.div`
 const Container = () => {
     return (
         <ContainerBlock>
-            <div>Something...??</div>
+            <div>사업주 여러분을 환영합니다!</div>
         </ContainerBlock>
     );
 };

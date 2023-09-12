@@ -9,6 +9,7 @@ const WritePage = () => {
             <div>이곳에 파일을 업로드할 수 있습니다.</div>
             <Button>파일 업로드</Button>
             <br />
+            <br />
             <Link to="/">첫 화면으로 이동</Link>
         </div>
     );

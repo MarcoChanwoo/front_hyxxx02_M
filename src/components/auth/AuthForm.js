@@ -93,9 +93,9 @@ const AuthForm = ({ type }) => {
             </form>
             <Footer>
                 {type === 'login' ? (
-                    <Link to="/register">(주)호윤상사 회원가입</Link>
+                    <Link to="/register">회원가입</Link>
                 ) : (
-                    <Link to="/login">(주)호윤상사 로그인</Link>
+                    <Link to="/login">로그인</Link>
                 )}
                 <br />
                 <Link to="/guest">게스트로 입장하기</Link>

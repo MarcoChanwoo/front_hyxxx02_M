@@ -5,7 +5,8 @@ const MainPage = () => {
         <>
             <Header />
             <div>
-                <h3>Hello, Hola mucho gusto!</h3>
+                <h2>기본 화면</h2>
+                <h3>(주)호윤상사에 방문하신 것을 환영합니다!</h3>
             </div>
         </>
     );
