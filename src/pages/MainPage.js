@@ -4,7 +4,9 @@ const MainPage = () => {
     return (
         <>
             <Header />
-            <div>Hello, Hola mucho gusto!</div>
+            <div>
+                <h3>Hello, Hola mucho gusto!</h3>
+            </div>
         </>
     );
 };

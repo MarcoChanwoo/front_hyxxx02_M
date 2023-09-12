@@ -42,7 +42,7 @@ const Header = () => {
             <HeaderBlock>
                 <Wrapper>
                     <Link to="/" className="logo">
-                        xXx
+                        (주)호윤상사
                     </Link>
                     <div className="right">
                         <Button to="/login">로그인</Button>

@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import palette from '../../lib/styles/palette';
 import { Link } from '../../../node_modules/react-router-dom/dist/index';
 
+/**
+ * 회원가입 / 로그인 페이지의 레이아웃을 담당하는 컴포넌트
+ */
+
 const AuthTemplateBlock = styled.div`
     // 화면 전체를 채움
     position: absolute;
@@ -38,7 +42,7 @@ const AuthTemplate = ({ children }) => {
         <AuthTemplateBlock>
             <WhiteBox>
                 <div className="logo-area">
-                    <Link to="/">XXX</Link>
+                    <Link to="/">(주)호윤상사</Link>
                 </div>
                 {children}
             </WhiteBox>
