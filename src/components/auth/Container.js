@@ -7,6 +7,7 @@ import styled from 'styled-components';
 const ContainerBlock = styled.div`
     background-color: skyblue;
     text-align: center;
+    font-size: 2rem;
 `;
 
 const Container = () => {

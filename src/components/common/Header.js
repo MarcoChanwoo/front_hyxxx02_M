@@ -45,7 +45,7 @@ const Header = () => {
                         (주)호윤상사
                     </Link>
                     <div className="right">
-                        <Button to="/login">로그인</Button>
+                        <Button to="/login">들어가기</Button>
                     </div>
                 </Wrapper>
             </HeaderBlock>
