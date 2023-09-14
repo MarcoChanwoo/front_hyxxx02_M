@@ -5,7 +5,8 @@ import styled from 'styled-components';
  */
 
 const ContainerBlock = styled.div`
-    background-color: skyblue;
+    background-color: violet;
+    height: 4rem;
     text-align: center;
     font-size: 2rem;
 `;

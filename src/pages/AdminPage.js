@@ -1,3 +1,4 @@
+import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
 
 const AdminPage = () => {
@@ -5,6 +6,7 @@ const AdminPage = () => {
         <>
             <Header />
             <div>감독자 페이지</div>
+            <Footer />
         </>
     );
 };

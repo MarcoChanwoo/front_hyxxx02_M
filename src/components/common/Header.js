@@ -6,7 +6,7 @@ import { Link } from '../../../node_modules/react-router-dom/dist/index';
 const HeaderBlock = styled.div`
     position: fixed;
     width: 100%;
-    background: white;
+    background: skyblue;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
 `;
 
@@ -14,7 +14,7 @@ const HeaderBlock = styled.div`
  * Responsive 컴포넌트의 속성에 스타일을 추가해서 새로운 컴포넌트 생성
  */
 const Wrapper = styled(Responsive)`
-    height: 4rem;
+    height: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;

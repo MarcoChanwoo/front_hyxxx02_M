@@ -1,5 +1,6 @@
 import { Link } from '../../node_modules/react-router-dom/dist/index';
 import Button from '../components/common/Button';
+import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
 
 const WritePage = () => {
@@ -20,6 +21,7 @@ const WritePage = () => {
             <br />
             <br />
             <Link to="/">첫 화면으로 이동</Link>
+            <Footer />
         </div>
     );
 };

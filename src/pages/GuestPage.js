@@ -1,5 +1,6 @@
 import Container from '../components/auth/Container';
 import Button from '../components/common/Button';
+import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
 
 const GuestPage = ({ onClick }) => {
@@ -21,6 +22,7 @@ const GuestPage = ({ onClick }) => {
             <Button to="/write" onClick={onClick}>
                 견적 신청하기
             </Button>
+            <Footer />
         </>
     );
 };
