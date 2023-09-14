@@ -7,7 +7,9 @@ import styled from 'styled-components';
 const ContainerBlock = styled.div`
     background-color: violet;
     height: 4rem;
-    text-align: center;
+    display: flex;
+    justify-content: center; // 중앙 정렬
+    align-items: center;
     font-size: 2rem;
 `;
 
