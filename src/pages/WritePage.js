@@ -7,17 +7,27 @@ import img06 from '../img/img06.png';
 
 const Totalbox = styled.div`
     text-align: center;
+    padding-bottom: 150px;
     .sub_title {
         text-align: left;
         padding-left: 30px;
         font-size: 2rem;
     }
+    .sub_title2 {
+        text-align: left;
+        padding-left: 30px;
+    }
     .first {
         font-size: 1.5rem;
     }
     .img {
+        padding-top: 10px;
         width: 800px;
         height: 500px;
+    }
+    .uploadBox {
+        padding-top: 20px;
+        font-size: 1.5rem;
     }
 `;
 
@@ -34,12 +44,16 @@ const WritePage = () => {
                 </div>
                 <img className="img" src={img06} alt="img06" />
                 <br />
-                <div>이곳에 파일을 업로드할 수 있습니다.</div>
+                <div className="uploadBox">
+                    이곳에 파일을 업로드할 수 있습니다.
+                </div>
                 <br />
-                <Button>파일 업로드</Button>
+                <Button>파일 첨부하기</Button>
                 <br />
                 <br />
-                <Link to="/">첫 화면으로 이동</Link>
+                <div className="sub_title2">
+                    <Link to="/">첫 화면으로 이동</Link>
+                </div>
             </Totalbox>
             <Footer />
         </div>
