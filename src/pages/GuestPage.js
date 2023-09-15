@@ -49,7 +49,7 @@ const GuestPage = ({ onClick }) => {
                 </div>
                 <br />
                 <Button to="/write" onClick={onClick}>
-                    견적 신청하기
+                    견적 및 상담신청
                 </Button>
             </Total>
             <Footer />

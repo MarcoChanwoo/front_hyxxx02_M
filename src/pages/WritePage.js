@@ -52,7 +52,7 @@ const WritePage = () => {
             <Header />
             <Container />
             <Totalbox>
-                <h2 className="sub_title">상담 요청</h2>
+                <h2 className="sub_title">견적 및 상담 신청</h2>
                 <div className="first">
                     귀하의 현장 안전을 컨설팅해 드립니다.
                     <br />
