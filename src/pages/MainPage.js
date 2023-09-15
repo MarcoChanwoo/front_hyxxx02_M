@@ -3,6 +3,7 @@ import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
 import img01 from '../img/img01.png';
 import img02 from '../img/img02.png';
+import img05 from '../img/img05.png';
 
 const Total = styled.div`
     text-align: center;
@@ -10,6 +11,7 @@ const Total = styled.div`
         font-size: 1.5rem;
     }
     .img {
+        padding-top: 10px;
         width: 800px;
         height: 500px;
     }
@@ -23,7 +25,8 @@ const Total = styled.div`
         height: 500px;
     }
     .bottom {
-        padding-bottom: 150px;
+        padding-top: 20px;
+        padding-bottom: 130px;
         margin: 10px;
     }
 `;
@@ -46,6 +49,8 @@ const MainPage = () => {
                     <br />
                     <div className="bottom">
                         근로자의 안전을 확실하게! 호윤상사가 이끌어갑니다!
+                        <br />
+                        <img className="img" src={img05} alt="img05" />
                         <br />
                         대표번호: 010-9019-7XX2
                     </div>
