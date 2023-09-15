@@ -14,8 +14,11 @@ const Totalbox = styled.div`
         font-size: 2rem;
     }
     .sub_title2 {
+        font-size: 1.3rem;
         text-align: left;
+        padding-top: 30px;
         padding-left: 30px;
+        text-decoration: underline;
     }
     .first {
         font-size: 1.5rem;
@@ -28,6 +31,11 @@ const Totalbox = styled.div`
     .uploadBox {
         padding-top: 20px;
         font-size: 1.5rem;
+        margin: 10px;
+    }
+    .textarea {
+        width: 350px;
+        height: 50px;
     }
 `;
 
@@ -46,11 +54,12 @@ const WritePage = () => {
                 <br />
                 <div className="uploadBox">
                     이곳에 파일을 업로드할 수 있습니다.
+                    <Button>파일 첨부하기</Button>
                 </div>
-                <br />
-                <Button>파일 첨부하기</Button>
-                <br />
-                <br />
+                <textarea
+                    className="textarea"
+                    placeholder='담당자 성함 / 회사명 / "파일명"'
+                ></textarea>
                 <div className="sub_title2">
                     <Link to="/">첫 화면으로 이동</Link>
                 </div>
