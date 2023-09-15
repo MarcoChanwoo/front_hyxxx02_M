@@ -4,6 +4,7 @@ import Button from '../components/common/Button';
 import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
 import img06 from '../img/img06.png';
+import img03 from '../img/img03.png';
 
 const Totalbox = styled.div`
     text-align: center;
@@ -16,7 +17,7 @@ const Totalbox = styled.div`
     .sub_title2 {
         font-size: 1.3rem;
         text-align: left;
-        padding-top: 30px;
+        padding-top: 40px;
         padding-left: 30px;
         text-decoration: underline;
     }
@@ -34,6 +35,7 @@ const Totalbox = styled.div`
         margin: 10px;
     }
     .textarea {
+        margin-top: 15px;
         width: 350px;
         height: 50px;
     }
@@ -41,16 +43,20 @@ const Totalbox = styled.div`
 
 const WritePage = () => {
     const onClick = () => {
-        alert('등록 완료! 담당자가 확인 후 연락드리겠습니다.');
+        alert('등록되었습니다. 확인 후 연락드리겠습니다.');
     };
 
     return (
         <div>
             <Header />
             <Totalbox>
-                <h2 className="sub_title">견적 요청</h2>
+                <h2 className="sub_title">상담 요청</h2>
                 <div className="first">
-                    귀하의 현장 사진을 보여주세요.
+                    귀하의 현장 안전을 컨설팅해 드립니다.
+                    <br />
+                    <img className="img" src={img03} alt="img03" />
+                    <br />
+                    현장 사진과 함께 문의를 남겨주세요.
                     <br />
                     (주)호윤상사와 함께 현장 견적을 함께해 드립니다.
                 </div>
