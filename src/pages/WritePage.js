@@ -19,7 +19,6 @@ const WritePage = () => {
             <Button>파일 업로드</Button>
             <br />
             <br />
-            <br />
             <Link to="/">첫 화면으로 이동</Link>
             <Footer />
         </div>
