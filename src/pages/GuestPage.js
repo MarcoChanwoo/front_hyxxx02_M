@@ -4,6 +4,7 @@ import Button from '../components/common/Button';
 import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
 import img07 from '../img/img07.png';
+import img04 from '../img/img04.png';
 
 const Total = styled.div`
     text-align: center;
@@ -28,7 +29,11 @@ const GuestPage = ({ onClick }) => {
                     <h2>당신의 현장을 안전하게!</h2>
                     <img className="img" src={img07} alt="img07" />
                     <div className="info">
-                        (주)호윤상사는 이미 수많은 회사와 함께해 왔습니다.
+                        근로자의 안전이 우선입니다!
+                        <br />
+                        <img className="img" src={img04} alt="img04" />
+                        <br /> (주)호윤상사는 이미 수많은 회사와 함께해
+                        왔습니다.
                         <br />
                         이제 귀하의 차례입니다.
                         <br />
