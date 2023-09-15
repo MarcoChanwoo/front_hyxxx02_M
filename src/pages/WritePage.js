@@ -5,6 +5,7 @@ import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
 import img06 from '../img/img06.png';
 import img03 from '../img/img03.png';
+import Container from '../components/auth/Container';
 
 const Totalbox = styled.div`
     text-align: center;
@@ -49,6 +50,7 @@ const WritePage = () => {
     return (
         <div>
             <Header />
+            <Container />
             <Totalbox>
                 <h2 className="sub_title">상담 요청</h2>
                 <div className="first">
