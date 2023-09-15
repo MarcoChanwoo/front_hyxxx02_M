@@ -37,11 +37,11 @@ const Footer = () => {
                             대표자: 정호윤
                             <br />
                             사업자 등록번호 : 00000-00
-                            <br /> 주소: 서울시 마포구
+                            <br /> 소재지: 서울시 마포구
                         </div>
                     </div>
                     <div className="right">
-                        Copyrightⓒ호윤상사 all right reserved(2023)
+                        Copyrightⓒ호윤상사 All Right Reserved(2023)
                     </div>
                 </Wrapper>
             </FooterBlock>
