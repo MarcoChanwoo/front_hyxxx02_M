@@ -40,6 +40,10 @@ const Totalbox = styled.div`
 `;
 
 const WritePage = () => {
+    const onClick = () => {
+        alert('등록 완료! 담당자가 확인 후 연락드리겠습니다.');
+    };
+
     return (
         <div>
             <Header />
@@ -58,8 +62,10 @@ const WritePage = () => {
                 </div>
                 <textarea
                     className="textarea"
-                    placeholder='담당자 성함 / 회사명 / "파일명"'
+                    placeholder='담당자 성함 / 회사명 / "파일명" / 이메일 주소'
                 ></textarea>
+                <br />
+                <Button onClick={onClick}>등록하기</Button>
                 <div className="sub_title2">
                     <Link to="/">첫 화면으로 이동</Link>
                 </div>
