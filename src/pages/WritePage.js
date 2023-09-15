@@ -7,6 +7,11 @@ import img06 from '../img/img06.png';
 
 const Totalbox = styled.div`
     text-align: center;
+    .sub_title {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 2rem;
+    }
     .first {
         font-size: 1.5rem;
     }
@@ -21,7 +26,7 @@ const WritePage = () => {
         <div>
             <Header />
             <Totalbox>
-                <h2>견적 요청</h2>
+                <h2 className="sub_title">견적 요청</h2>
                 <div className="first">
                     귀하의 현장 사진을 보여주세요.
                     <br />
