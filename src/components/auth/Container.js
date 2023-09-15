@@ -11,6 +11,7 @@ const ContainerBlock = styled.div`
     justify-content: center; // 중앙 정렬
     align-items: center;
     font-size: 2rem;
+    font-weight: bold;
 `;
 
 const Container = () => {
